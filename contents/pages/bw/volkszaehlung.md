@@ -1,8 +1,6 @@
-<h1 class="headline">Volksz&auml;hlung M&auml;hrisch Wiesen</h1>
+# Volkszählung Böhmisch Wiesens
 
-<p>
-    Hier die Volksz&auml;hlung von M&auml;hrisch Wiesen Wiesen 1938:
-</p>
+Hier die Volkszählung von Böhmisch Wiesen 1938 (UNVOLLSTÄNDIG - IN ARBEIT):
 
 <table id="volksz-table" class="t"></table>
 
@@ -10,7 +8,7 @@
 
 <script>
 
-    let data = JSON.parse(sync("get", "/tables/volksz-mw.csv", null));
+    let data = JSON.parse(sync("get", "/tables/volksz-bw.csv", null));
     let tableElement = document.getElementById("volksz-table");
     rowLength = data[0].length;
     for (let row of data) {
@@ -30,7 +28,7 @@
     }
 
     function download() {
-        window.location.href = "/tables/volksz-mw.ods/download";
+        window.location.href = "/tables/volksz-bw.ods/download";
     }
 
 </script>

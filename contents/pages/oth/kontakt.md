@@ -1,4 +1,4 @@
-<h1 class="headline">Kontakt</h1>
+# Kontakt
 
 <table>
     <tr>

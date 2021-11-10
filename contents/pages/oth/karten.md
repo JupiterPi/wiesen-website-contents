@@ -1,3 +1,3 @@
-<h1 class="headline">Karten</h1>
+# Karten
 
 Hierhin kommen weitere Karten, sobald diese verfügbar sind.

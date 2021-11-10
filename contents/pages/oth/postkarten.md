@@ -1,4 +1,4 @@
-<h1 class="headline">Postkarten</h1>
+# Postkarten
 
 <div id="container" class="img-gallery">
 
@@ -26,5 +26,3 @@
         container.appendChild(img);
     }
 </script>
-
-<script src="/res/images.js"></script>
